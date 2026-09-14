@@ -41,7 +41,6 @@ life on 2026-11-05. `intility-bifrost-zensical` is the replacement.
     Remember to pin the workflow to a SHA ;)
 
     > [!IMPORTANT]
-    > Styling covers the Quick Start setup only
     > The theme styles the plugins and markdown extensions from the [Quick Start](index.md#quick-start), nothing more. If another plugin or extension needs Bifrost styling, [open an issue](https://github.com/intility/bifrost-zensical/issues) or see the [contribution guide](https://github.com/intility/bifrost-zensical/blob/main/CONTRIBUTING.md).
 
 ## Edge cases
