@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.3](https://github.com/intility/bifrost-zensical/compare/intility-bifrost-zensical-v0.1.2...intility-bifrost-zensical-v0.1.3) (2026-09-22)
+
+
+### Fixes
+
+* **messages:** use circle-info icon for note admonitions ([#72](https://github.com/intility/bifrost-zensical/issues/72)) ([4f3c2b3](https://github.com/intility/bifrost-zensical/commit/4f3c2b337a249030e63b0ed7d13b23c7ffe17118))
+
+
+### Documentation
+
+* **migration:** add template reference ([8c249cb](https://github.com/intility/bifrost-zensical/commit/8c249cb393ceae130595d89c8825107b7cfc78d4))
+* **migration:** fix important message ([4bfe9ba](https://github.com/intility/bifrost-zensical/commit/4bfe9bac83960f645dcb6760b529b0c1d0cd534e))
+
 ## [0.1.2](https://github.com/intility/bifrost-zensical/compare/intility-bifrost-zensical-v0.1.1...intility-bifrost-zensical-v0.1.2) (2026-09-11)
 
 
