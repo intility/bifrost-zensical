@@ -41,7 +41,6 @@ It ships the config from the next section, a `requirements.txt`, and the deploy 
         [project.markdown_extensions]
         abbr = {}
         admonition = {}
-        github-callouts = {}
         attr_list = {}
         def_list = {}
         footnotes = {}
@@ -60,6 +59,7 @@ It ships the config from the next section, a `requirements.txt`, and the deploy 
         pymdownx.keys = {}
         pymdownx.magiclink = {}
         pymdownx.mark = {}
+        pymdownx.quotes.callouts = true
         pymdownx.smartsymbols = {}
         pymdownx.snippets = {}
         pymdownx.superfences.custom_fences = [
@@ -88,7 +88,6 @@ It ships the config from the next section, a `requirements.txt`, and the deploy 
         markdown_extensions:
           - abbr
           - admonition
-          - github-callouts
           - attr_list
           - def_list
           - footnotes
@@ -112,6 +111,8 @@ It ships the config from the next section, a `requirements.txt`, and the deploy 
           - pymdownx.keys
           - pymdownx.magiclink
           - pymdownx.mark
+          - pymdownx.quotes:
+              callouts: true
           - pymdownx.smartsymbols
           - pymdownx.snippets
           - pymdownx.superfences:

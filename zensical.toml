@@ -27,14 +27,13 @@ awesome-nav = {}
 # extend it (a theme can't set this key for you). So most lines below just
 # mirror Zensical's `DEFAULT_MARKDOWN_EXTENSIONS` verbatim, to not silently
 # take features away from a bare Zensical setup. Real additions:
-# `github-callouts`, `pymdownx.snippets`, `table_ext`. Real Bifrost deltas
+# `pymdownx.quotes`, `pymdownx.snippets`, `table_ext`. Real Bifrost deltas
 # from Zensical's own defaults: `pymdownx.betterem.smart_enable` and the
 # mermaid `format`. `tables` is deliberately
 # absent: Zensical always includes it regardless of what's declared here.
 [project.markdown_extensions]
 abbr = {}
 admonition = {}
-github-callouts = {}
 attr_list = {}
 def_list = {}
 footnotes = {}
@@ -53,6 +52,7 @@ pymdownx.inlinehilite = {}
 pymdownx.keys = {}
 pymdownx.magiclink = {}
 pymdownx.mark = {}
+pymdownx.quotes.callouts = true
 pymdownx.smartsymbols = {}
 pymdownx.snippets = {}
 pymdownx.superfences.custom_fences = [
