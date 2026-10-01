@@ -123,7 +123,8 @@
 }
 
 /* Solid Material Design icons instead of Zensical's outlined Lucide set.
-   `important` comes from github-callouts and has no Zensical default.
+   `important` and `caution` come from GitHub-style callouts and have no
+   Zensical icon rule; `caution` reuses the `danger` icon.
    `note` reuses the `info` icon on purpose (issue #71: the pen icon read
    as untidy). */
 :root {
@@ -146,4 +147,10 @@
 .md-typeset .important>summary::before {
     mask-image: var(--md-admonition-icon--important);
     -webkit-mask-image: var(--md-admonition-icon--important);
+}
+
+.md-typeset .caution>.admonition-title::before,
+.md-typeset .caution>summary::before {
+    mask-image: var(--md-admonition-icon--danger);
+    -webkit-mask-image: var(--md-admonition-icon--danger);
 }

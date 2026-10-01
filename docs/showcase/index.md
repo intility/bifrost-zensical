@@ -11,7 +11,7 @@ This section demonstrates every Markdown extension from the [Quick Start](../ind
 | [Keyboard Keys](keyboard-keys.md) | `keys` |
 | [Lists](lists.md) | `tasklist`, `def_list` |
 | [Tables](tables.md) | `tables`, `table_ext` |
-| [Messages](messages.md) | `admonition`, `details`, `github-callouts` |
+| [Messages](messages.md) | `admonition`, `details`, `quotes` |
 | [Highlighter](highlighter.md) | `highlight`, `superfences`, `inlinehilite` |
 | [Tabs](tabs.md) | `tabbed` |
 | [Diagrams](diagrams.md) | `superfences` (mermaid) |

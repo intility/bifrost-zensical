@@ -1,8 +1,11 @@
 # Messages
 
-Extensions: `admonition`, `pymdownx.details`, `github-callouts`
+Extensions: `admonition`, `pymdownx.details`, `pymdownx.quotes`
 
-Admonitions render as Bifrost **Message** components. Two syntaxes produce them: the standard `!!!` syntax (from the `admonition` extension) and GitHub-style alert blocks using `> [!TYPE]` (from the `github-callouts` extension).
+Admonitions render as Bifrost **Message** components. Two syntaxes produce them: the standard `!!!` syntax (from the `admonition` extension) and GitHub-style alert blocks using `> [!TYPE]` (from `pymdownx.quotes` with `callouts` enabled).
+
+!!! warning "Deprecated: `github-callouts`"
+    Earlier versions of this guide used the `github-callouts` extension. It still works, but the theme stops installing `markdown-callouts` in a future release. Replace `github-callouts = {}` with `pymdownx.quotes.callouts = true` in your config.
 
 ## GitHub Alert Syntax
 
@@ -40,6 +43,26 @@ Admonitions render as Bifrost **Message** components. Two syntaxes produce them:
 
     > [!CAUTION]
     > Actions that are irreversible or could cause data loss.
+    ```
+
+## GitHub Alert Titles and Folding
+
+=== "Result"
+
+    > [!WARNING] Custom title
+    > Text after the type replaces the default title.
+
+    > [!TIP]- Collapsed by default
+    > A trailing `-` makes the alert collapsible and closed. Use `+` to start it open.
+
+=== "Markdown"
+
+    ```markdown
+    > [!WARNING] Custom title
+    > Text after the type replaces the default title.
+
+    > [!TIP]- Collapsed by default
+    > A trailing `-` makes the alert collapsible and closed. Use `+` to start it open.
     ```
 
 ## All 12 Message Types
@@ -153,4 +176,4 @@ Admonitions render as Bifrost **Message** components. Two syntaxes produce them:
 | `> [!WARNING]` | `!!! warning` |
 | `> [!CAUTION]` | `!!! danger` |
 
-The standard `!!!` syntax gives access to all 12 types and supports collapsible blocks (`???` / `???+`). GitHub alerts are limited to 5 types but work on GitHub and other renderers too.
+The standard `!!!` syntax gives access to all 12 types. GitHub alerts are limited to 5 types but work on GitHub and other renderers too. Both support custom titles and collapsible blocks.
