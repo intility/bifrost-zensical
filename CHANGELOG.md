@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/intility/bifrost-zensical/compare/intility-bifrost-zensical-v0.1.3...intility-bifrost-zensical-v0.2.0) (2026-10-01)
+
+
+### Features
+
+* **messages:** support pymdownx.quotes callouts with titles and folding ([#75](https://github.com/intility/bifrost-zensical/issues/75)) ([72f9cc2](https://github.com/intility/bifrost-zensical/commit/72f9cc24eaf5b5b0251478e37df6e4ff7650b590))
+
 ## [0.1.3](https://github.com/intility/bifrost-zensical/compare/intility-bifrost-zensical-v0.1.2...intility-bifrost-zensical-v0.1.3) (2026-09-22)
 
 
