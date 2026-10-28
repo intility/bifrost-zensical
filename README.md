@@ -8,10 +8,10 @@
 </p>
 <p align="center">
     <a href="https://python.org">
-        <img src="https://img.shields.io/badge/python-v3.10+-blue.svg?logo=python&logoColor=white&label=python" alt="Python version">
+        <img src="https://img.shields.io/badge/python-v3.11+-blue.svg?logo=python&logoColor=white&label=python" alt="Python version">
     </a>
     <a href="https://zensical.org/">
-        <img src="https://img.shields.io/badge/zensical-0.0.65-blue.svg?label=zensical" alt="Zensical version">
+        <img src="https://img.shields.io/badge/zensical-0.0.73-blue.svg?label=zensical" alt="Zensical version">
     </a>
     <a href="https://github.com/intility/bifrost-zensical/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">

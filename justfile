@@ -78,7 +78,7 @@ test-matrix:
     #!/usr/bin/env bash
     set -uo pipefail
     code=0
-    for v in 3.10 3.14; do
+    for v in 3.11 3.14; do
         echo "=== pytest on Python $v ==="
         uv run --python "$v" --extra dev pytest || code=1
     done
