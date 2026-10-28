@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.0](https://github.com/intility/bifrost-zensical/compare/intility-bifrost-zensical-v0.2.0...intility-bifrost-zensical-v0.3.0) (2026-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** pin zensical 0.0.73 and require python 3.11
+* **deps:** pin zensical 0.0.73 and require python 3.11 ([#78](https://github.com/intility/bifrost-zensical/issues/78))
+
+### Fixes
+
+* **deps:** allow zensical patch range instead of exact pin ([779d96c](https://github.com/intility/bifrost-zensical/commit/779d96cfa84dfaf322421fbeb7601c6423d77a42))
+* **deps:** pin zensical 0.0.73 and require python 3.11 ([fb089d8](https://github.com/intility/bifrost-zensical/commit/fb089d8e23ed5eeb6a5d97e9dc54dd66997eec62))
+* **deps:** pin zensical 0.0.73 and require python 3.11 ([#78](https://github.com/intility/bifrost-zensical/issues/78)) ([fb089d8](https://github.com/intility/bifrost-zensical/commit/fb089d8e23ed5eeb6a5d97e9dc54dd66997eec62))
+
 ## [0.2.0](https://github.com/intility/bifrost-zensical/compare/intility-bifrost-zensical-v0.1.3...intility-bifrost-zensical-v0.2.0) (2026-10-01)
 
 
